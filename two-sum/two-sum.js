@@ -5,7 +5,7 @@
 // Upon adding, check to see if the current value and the target's difference is already stored in the object
 // If so, return the current value's index as well as the index of the differece
 
-var twoSum = function(nums, target) {
+let twoSum = function(nums, target) {
   let valuesObject = {};
   let indexArray = [];
   let difference = 0;
