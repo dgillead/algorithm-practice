@@ -19,7 +19,3 @@ function uniqueID(ids) {
 }
 
 uniqueID([1, 1, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8]); // should return 3
-
-// iterate over the array
-// create an object for each element with the number as the key and the times it appears as the value
-// the number which has a value of one is the uniqueID
